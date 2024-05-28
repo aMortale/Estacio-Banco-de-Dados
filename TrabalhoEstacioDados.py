@@ -5,7 +5,7 @@ def criar_conexao():
     #Cria uma conexão com o banco de dados SQLite. 
     #Retorna: conn (sqlite3.Connection): Retorna a conexão com o banco de dados, permitindo usar comandos SQL.
     
-    conn = sqlite3.connect('Estacio_Trabalho5.db')
+    conn = sqlite3.connect('Estacio_Trabalho_Gabriel5.db')
     return conn
 
 def criar_tabelas(conn):
